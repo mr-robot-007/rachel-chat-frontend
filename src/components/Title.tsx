@@ -10,7 +10,7 @@ const backend_url = process.env.BACKEND_URL;
 export default function Title({ setMessages }: Props) {
   const [isResetting, setIsResetting] = useState(false);
 
-  // Reset the conversation
+  // Reset the conversationn
   const resetConversation = async () => {
     setIsResetting(true);
 
