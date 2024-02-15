@@ -2,9 +2,11 @@ import { useState } from "react";
 import Title from "./Title";
 import RecordMessage from "./RecordMessage";
 import axios from "axios";
+import {backend_url} from "../constants"
 
 // http://localhost:8000 
-const backend_url = process.env.BACKEND_URL
+// const backend_url = process.env.BACKEND_URL
+// const backend_url = "https://rachel-chat-anujgusain1083.replit.app"
 
 function Controller() {
   const [isLoading, setIsLoading] = useState(false);

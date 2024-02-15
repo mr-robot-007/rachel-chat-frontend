@@ -1,11 +1,12 @@
 import axios from "axios";
 import { useState } from "react";
+import {backend_url} from "../constants"
 
 type Props = {
   setMessages: any;
 };
-
-const backend_url = process.env.BACKEND_URL;
+// const backend_url = process.env.BACKEND_URL
+// const backend_url = "https://rachel-chat-anujgusain1083.replit.app";
 
 export default function Title({ setMessages }: Props) {
   const [isResetting, setIsResetting] = useState(false);

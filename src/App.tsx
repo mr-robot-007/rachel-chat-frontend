@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import Controller from "./components/Controller";
 import axios from "axios";
+import {backend_url} from "./constants"
 
-const backend_url = process.env.BACKEND_URL
+// const backend_url = process.env.BACKEND_URL
+// const backend_url = "https://rachel-chat-anujgusain1083.replit.app"
 
 function App() {
   useEffect(function () {
